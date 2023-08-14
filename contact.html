@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .Home{
+    margin-left: 5%;
+    position: absolute;
+    margin-top: 4%;
+    font: 1.5em sans-serif;
+    color: white;
+    /* background-color: red; */
+    padding-bottom: 5px;
+    border-radius: 8px;
+}
+        nav{
+    color: black;
+    margin-left: 85%;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+nav ul li a{
+    color:  black;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+     li a:hover{
+         color: red;
+    }
+
+        .container{
+            width: 80%;
+            margin: 50px auto;
+        }
+        .content-box{
+            background-color: whitesmoke;
+            border-radius: 10px;
+            display: flex;
+        }
+        .content-left{
+            flex-basis: 60%;
+            padding: 40px 60px;
+        }
+        .content-rigth{
+            flex-basis: 40%;
+            padding: 40px;
+            background: rgb(85, 23, 23);
+            color: white;
+            border-radius: 10px;
+
+        }
+        h1{
+            margin-bottom: 10px;
+        }
+        .container p{
+            margin-bottom: 40px;
+        }
+        .input-row{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .input-row .input-group{
+            flex-basis: 45%;
+        }
+        input{
+            width: 100%;
+            outline: none;
+            border:none ;
+            border-bottom: 1px solid black;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            padding-left: 5px;
+            border-radius: 10px;
+        }
+        textarea{
+            width: 100%;
+            border: 1px solid black;
+            outline: none;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+        label{
+            margin-bottom: 10px;
+            display: block;
+            color:rgb(85, 23, 23);
+        }
+        button{
+            background:rgb(85, 23, 23) ;
+            width: 100px;
+            border: none;
+            outline: none;
+            color: white;
+            height: 35px;
+            border-radius: 30px;
+            margin-top: 20px;
+
+        }
+        .content-left h3{
+            color: rgb(85, 23, 23);
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        .content-right h3{
+            color: rgb(85, 23, 23);
+            /* font-weight: 600px; */
+            margin-bottom: 30px;
+        }
+        tr td:first-child{
+            padding-right:25px;
+    
+        }
+      tr td{
+            padding-top: 20px;
+        }
+        .Reach p:nth-child(1){
+            margin-top: 12%;
+            margin-left: 8%;
+        }
+        .Reach p:nth-child(2){
+            width: 105%;
+            margin-left: 2%;
+            font: 1em sans-serif;
+        }
+
+
+@media (max-width:1000px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+            width: 80%;
+            margin: 50px auto;
+        }
+   
+        .content-left{
+            flex-basis: 60%;
+            padding: 40px 60px;
+        }
+        .content-rigth{
+            padding: 40px;
+            margin-left: 20%;
+
+
+        }
+        h1{
+            margin-bottom: 10px;
+        }
+        .container p{
+            margin-bottom: 40px;
+        }
+        .input-row{
+            display: inline-block;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .input-row .input-group{
+            flex-basis: 80%;
+        }
+        input{
+            width: 200%;
+            outline: none;
+            border:none ;
+            border-bottom: 1px solid black;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            padding-left: 5px;
+            border-radius: 10px;
+        }
+        textarea{
+            width: 200%;
+            border: 1px solid black;
+            outline: none;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+        label{
+            margin-bottom: 10px;
+            display: block;
+            color:rgb(85, 23, 23);
+        }
+        button{
+            background:rgb(85, 23, 23) ;
+            width: 100px;
+            border: none;
+            outline: none;
+            color: white;
+            height: 35px;
+            border-radius: 30px;
+            margin-top: 20px;
+
+        }
+        .content-left h3{
+            color: rgb(85, 23, 23);
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        .content-right h3{
+            color: rgb(85, 23, 23);
+            /* font-weight: 600px; */
+            margin-bottom: 30px;
+        }
+        tr td:first-child{
+            padding-right:25px;
+    
+        }
+      tr td{
+            padding-top: 20px;
+        }
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <a class="Home" href="web.html"><i class="fa-solid fa-house fa-2xl" style="color: #000000;"></i></a>
+
+
+        <nav>
+            <ul>
+                <li><a href="work.html">Works</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <h1>Connect With Us</h1>
+        <p>We would love to respond to your queries and help you succeed. Feel free to get in touch with us.</p>
+
+        <div class="content-box">
+            <div class="content-left"> 
+                <h3>Sent your request</h3>
+                <form>
+                    
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="Evs Tech">
+                        </div>
+                        <div class="input-group">
+                            <label>Phone</label>
+                            <input type="number" placeholder="+234-9025-1483-98">
+                        </div>
+
+                    </div>
+                    <!-------------input-row2------------- -->
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="EvsTech02@gmail.com">
+                        </div>
+                        <div class="input-group">
+                            <label>Subject</label>
+                            <input type="text" placeholder="Kind of Web">
+                        </div>
+
+                    </div>
+
+                <label>Message</label>
+                <textarea rows="5" placeholder="Please how can we help you"></textarea>
+
+                </form>
+                <button type="submit">SEND</button>
+            </div>
+            <div class="content-rigth">
+                <h3>Reach Us</h3>
+
+                <table>
+                    <tr>
+                        <td><span><i class="fa-solid fa-phone fa-shake"></i></span> Phone</td>
+                        <td>+234-9025-1483-98</td>
+                    </tr>
+                    <tr>
+                        <td><span><i class="fa-regular fa-envelope fa-beat"></i></span> Email</td>
+                        <td>EvsTech02@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>101,PTI road, warri </td>
+                    </tr>
+                   
+                </table>
+                <div class="Reach">
+                    <p>THANKS FOR REACHING OUT TO US</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, atque repellendus similique distinctio delectus cumque consectetur ullam assumenda ipsa necessitatibus sint nulla dolorem, tempora quod repudiandae? Quo id odit temporibus.</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>
